@@ -1,0 +1,186 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+  --primary-color: #f87171;
+  --secondary-color: #1f2937;
+  --dark-gray: #4b5563;
+  --light-gray: #f3f4f6;
+  --gray: #9ca3af;
+  --width-break: 600px;
+}
+
+.padding-medium {
+  padding: 2rem 0rem;
+}
+
+
+/* background-color: #1F2937; */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0px;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/** container **/
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* .container-center-two{
+  max-width: 850px;
+  margin:auto;
+} */
+
+/* this was to shorten the nav bar and footer but its bot looking good that way, change it in the future */
+
+/**links**/
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  /* margin-top: 5rem; */
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--secondary-color);
+  border-radius: 0.5rem;
+  border: 3px solid var(--secondary-color);
+}
+
+.link-third {
+  background-color: var(--dark-gray);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-last {
+  border-radius: 0.5rem;
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/**lists**/
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.navigation .link {
+  color: var(--primary-color);
+}
+
+.align-to-right {
+  text-align: right;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+  padding: 1rem;
+  padding-top: 5rem;
+}
+
+.hero .hero-img {
+  max-width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--dark-gray);
+}
+
+/** sections **/
+
+.section {
+  padding: 2rem;
+  /* max-width: var(--width-break);
+  margin: auto; */
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--light-gray);
+}
+
+.blog-header {
+  text-align: center;
+}
+
+/** footer **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+#last-line {
+  background-color: var(--secondary-color);
+  text-align: center;
+  color: var(--gray);
+}
+    
+    
+    
+    
