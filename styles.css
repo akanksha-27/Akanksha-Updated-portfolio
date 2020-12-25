@@ -115,12 +115,12 @@ hr {
 /** header **/
 
 .hero {
-  padding: 1rem;
+  padding: 2rem;
   padding-top: 5rem;
 }
 
 .hero .hero-img {
-  max-width: 420px;
+  max-width: 400px;
   margin: auto;
   display: block;
 }
